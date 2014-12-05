@@ -1,0 +1,657 @@
+
+
+/*@media (min-width: 960px){*/
+
+	/*header*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+header
+{
+}	
+
+	#header-wrapper-support{
+		width: 970px;
+		background-color: #403F41;
+		height: 80px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#header-wrapper-support .header-col-2{
+		width:192px;
+		height: 80px;
+	}
+	.header-col-3{
+		width: 384px;
+		background-color: white;
+		height: 80px;
+	}
+
+	#logo{
+		width: 200px;
+		height: 80px;
+	}
+
+	.empty_cart_span{
+		margin-left: 10px;
+	}
+
+	#search{
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		height: 30px;
+		width: 180px;
+		margin: 25px 10px;
+	}
+
+	::-webkit-input-placeholder {
+   		padding-left: 15px;
+	}
+
+	#username{
+		height: 30px;
+		width: 50px;
+		margin:  25px 20px;
+
+	}
+
+	.header-col-2 .dropdown {
+		margin: 25px 0px auto 20px;
+	}
+
+	.dropdown-menu{
+		width: 200px;
+	}
+
+	.links_down_list{
+		width: 120px;
+		color: #333335;
+	}
+
+	.li_down_list:first-child{
+		margin-top: 20px;
+	}
+	.redline_list{
+		height: 30px;
+		width: 200px;
+		margin-top: -20px;
+	}
+	.counts_down_list{
+		margin-left: -20px;
+		font-size: 12px;
+		margin-top: 5px;
+	}
+
+	#total_list{
+		margin-left: 100px;
+		margin-bottom: 2 0px;
+	}
+
+	/*banner*/
+	#banner-support{
+		width: 970px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 300px;
+/*		background-repeat: repeat-x;
+		background-image: url("../../images/banner/banner_bg_1.png");
+		outline: none;*/
+	}
+	#banner-support img{
+		outline: none;
+	}
+
+	.bannerhanddler{
+		width: 100px;
+		height: 300px;
+	}
+
+	#bannerimage{
+		width: 770px;
+		height: 300px;
+	}
+
+
+	/*tables*/
+	.content{
+		border-left: 1px solid #C0C0C0;
+		border-right: 1px solid #C0C0C0;
+		width: 970px;
+		height: 1180px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
+	}
+	.content-tables{
+		width: 698px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+
+
+	/*recommendation table*/
+	.content-table{
+		width: 700px;
+		height: 450px;
+		padding: 30px 20px 0px 20px;
+	}
+
+	.table_header_first{
+		font-size: 20px;
+		
+	}
+
+	.table_header{
+		border-bottom: 2px solid  #EA5542;
+	}
+
+	.header_tabs{
+		margin-left: 30px;
+		margin-top: 5px;
+	}
+	
+
+	/*ul table image*/
+	
+	.table-list-cover ul{
+		padding-left: 0px;
+		padding-top: 15px;
+		list-style-type: none;
+		height: 170px;
+	}
+
+	.table-list-cover ul li:last-child{
+		margin-right: 0px;
+	}
+
+	.table-list-cover ul li{
+		float: left;
+		z-index: -1;
+		margin-right: 32px;
+		width: 141px;
+	}
+
+	.second-tables{
+		margin-top: 30px;
+	}
+
+	.table-image-text{
+		margin: 10px 20px;
+		display: inline-block;
+
+	}
+
+
+
+/*	table top 10*/
+	#dl-body-topsong{
+		height: 300px;
+		width: 100%;
+		background-position: right top;
+		background-image: url("../../images/top10-list.png");
+	}
+	#dl-body-topsong dl{
+		width: 220px;
+	}
+
+	.dl-header img{
+		margin-top: 20px;
+		margin-left: 20px;
+		
+	}
+
+
+
+/*content-right area*/
+
+	
+	.content-singerlists{
+		width: 270px;
+		border-left: 1px solid  #C0C0C0;
+		
+		height: 1180px;
+	}
+
+	.right-login-area{
+		height: 150px;
+		background-repeat: no-repeat;
+		background-image: url("../../images/login-background.png");
+	}
+
+	#loginbuttone{
+		margin-top: 10px;
+		margin-left: 80px;
+		width: 100px;
+		background-color: #EA5542;
+		border: none;
+	}
+	#logintext{
+		margin-top: 18px;
+		padding-top: 30px;	
+		text-align: center;	
+		font-size: 15px;
+		color:#4F4F4F;
+	}
+
+	/*login form */
+	.login-form{
+		display: none;
+		margin-left: 20px;
+		margin-top: 20px;
+
+	}
+
+	
+
+	.login-form input{
+		width: 180px;
+		height: 30px;
+	}
+	#loginbuttontwo, #loginbuttontwo:hover{
+		background-color: #EA5542;
+		border: none;
+		color: white;
+		width: 80px;
+	}
+
+	.the-return{
+		padding-left: 5px;
+		padding-top: 5px;
+
+	}
+
+/*	search singer*/
+	.right-recommend-voice{
+	
+	height: 400px;
+	margin-left: 20px;
+	margin-top: 30px;
+	}
+	
+	.right-search-area{
+		width: 240px;
+	/*	height: 300px;*/
+		
+	}
+
+
+	#singe_hint{
+		display: none;
+		margin-left: 20px;
+	}
+
+	#singer_name{
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		margin-left: 40px;
+
+	}
+
+/*	voice*/
+	
+	#right-voice{
+		height: 160px;
+		width: 200px;
+	}
+
+	.right-recommend-voice h4 a{
+		color:#EA5542;
+
+	}
+
+/*footer*/
+	.footer{
+		width: 970px;
+		height: 100px;
+		background-color: white;
+		border: 1px solid #C0C0C0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	.footer ul{
+		margin:30px;
+		padding: 0px;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.footer ul li{
+		display: inline;
+	}
+
+	.footer ul li a {
+		text-decoration: none;
+		padding: .2em 1em;
+	}
+
+
+/*song detail page*/
+.song_detail{
+		margin-left: 40px;
+		height: 890px;
+
+
+}
+	.welcome_title{
+		padding-top: 50px;
+		margin-left: 40px;
+	}
+	#wlc_header{
+		font-size: 20px;
+	}
+
+	.img_div{
+		margin-left: 50px;
+		margin-top: 10px;
+		z-index: 1;
+
+	}
+	.mask_img{
+		position: relative;
+		right:174px;
+		top: 3px;
+		z-index: 1;
+	}
+
+
+	/*歌词 添加按钮*/
+
+	.addToChart_play{
+		background-color: #EA5542;
+		border: none;
+		margin-right: 20px;
+	}
+
+
+	.ly_div{
+		margin-left: -120px;
+		margin-top: 30px;
+		width: 600px;
+		
+	}
+
+	#arrow{
+		height: 17px;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+	.ly_content{
+		margin-top: 120px;
+		line-height: 1.7;
+	}
+
+	
+	.ly_div form,.ly_div a{
+		z-index: 2;
+		position: relative;
+	}
+	.descrption{
+		margin-top: 50px;
+		font-size: 11px;
+		color: #666666;
+		width: 400px;
+	}
+
+/*	singer_detail page*/
+	
+	.wrap_img{
+		padding-top: 50px;
+		margin: 0px auto;
+	} 
+
+	.img_des{
+		margin:0px auto;
+		display: table;
+	}
+
+	#img_it{
+    border-radius: 4px!important;
+    zoom: 1; /*PIE用*/
+    position: relative; /*PIE用*/
+	}
+
+
+	#name_in_image a{
+		position: relative;
+		top: -80px;
+		left: 200px;
+		font-size: 20px;
+		color:  #FBFCFC;
+		font-weight:bold;
+		font-family: Roboto;
+	}
+
+	
+
+	.shadow4{
+		position: relative;
+	}
+
+	.shadow4:after{
+		position: absolute;
+		display: block;
+		content:"";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		box-shadow: rgba(255,255,255,.5) 0 0 0 20px inset;
+	}
+
+	.fadein {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+}
+	@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+	/*song/description*/
+
+	.song_table{
+		width: 970px;
+		height: 500px;
+		
+	}
+
+	.song_table ul, .tab-content{
+		width: 700px;
+		margin: 0px auto;
+	}
+
+	.tab-pane p{
+		margin: 30px auto;
+		width: 450px;
+		line-height: 2;
+	}
+
+	/*pop box */
+	.modal-content{
+		margin-top: 400px;
+		width: 400px;
+		margin-left: auto;
+		margin-right:auto; 
+	}
+
+
+/*	SHOPPING CART */
+
+	.content.sc_content{
+		height: auto;
+	}
+	.cart_content{
+		width: 600px;
+		height: auto;
+		padding-top: 100px;
+		padding-bottom: 300px;
+	}
+
+	.cart_page_list{
+		padding-left: 100px;
+		margin-bottom: 0px;
+		margin-top: 60px;
+	}
+
+	.cart_content h3{
+		font-size: 28px;
+		margin-left: 50px;
+		margin-top: -20px;
+	}
+
+	/*购物车的图片*/
+
+	ul.cart_page_list li{
+		height: 200px;
+		list-style-type: none;
+	}
+
+	.image-wrap{
+		position: relative;
+		display: inline-block;
+		max-width: 100%;
+		vertical-align: bottom;
+	
+	}
+
+	.image-wrap:after {
+	content: ' ';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	border: solid 10px rgba(239, 222, 204, 0.4);
+  	box-shadow: 0 3px 9px rgba(0,0,0,.3);
+  	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-sizing: content-box;
+}
+
+.image-wrap img {
+	vertical-align: bottom;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+  	background: #fff;
+
+}
+
+	/*购物车货物详情*/
+	.order_item_detail{
+		margin-left: 70px;
+		padding-top: 10px;
+	}
+
+	.order_item_detail a{
+		font-size: 20px;
+	}
+
+
+
+	#space30px{
+		width: 30px;
+		height: 2px;
+	}
+
+	/*空的购物车*/
+	.empty_cart{
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+
+/*	shoppingcart右边显示登录框或购买记录*/
+	
+	.log_ord_his{
+		margin-top: 80px;
+		width: 367px;
+		height: 500px;
+		border-left: 1px solid #C0C0C0;
+	}
+
+	/*登陆框*/
+	
+	.login-form-cart{
+		width: 300px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	#loginhint{
+		margin-left: 10px;
+	}
+
+	.order_history{
+		margin: 20px auto;
+		width: 320px;
+	}
+
+	#result_order{
+		margin: 50px auto;
+		width: 300px;
+		font-size: 16px;
+	}
+
+	.order_history_content{
+		width: 300px;
+		margin: 30px auto;
+	}
+
+	.order_history_content a{
+		margin-right:20px;
+	}
+	.order_history_content span{
+		margin-right: 20px;
+	}
+	.order_history_content p{
+		margin-bottom: 0px;
+	}
+
+	#is_date{
+		font-size: 10px;
+		text-align: right;
+	}
+
+	.bottom_total{
+		margin-right: 50px;
+		text-align: right;
+		font-size: 18px;
+	}
+
+	.bottom_total button{
+		margin-top: 10px;
+		background-color: #EA5542;
+		color: white;
+	}
+
+.order_history_content li{
+	border-bottom: 1px solid #C0C0C0;
+	margin-top: 20px;
+}
+
+
+
+	.floatleft{
+		float: left;
+	}
+
+	.clear{
+		clear:both;
+	}
+
