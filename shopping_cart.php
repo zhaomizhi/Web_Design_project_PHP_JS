@@ -122,7 +122,7 @@
 
         </ul>
         <div class = "bottom_total">The total amount is : <span id = "total_amount">&nbsp; </span></br>
-          <button class = "btn btn-default">Submit</button>
+          <button id = "check_out" class = "btn btn-default">Check out</button>
         </div>
 
 
@@ -220,10 +220,33 @@
 
          if($(".cart_page_list").has("li").length == 0){
            $(".bottom_total").css('display', 'none');
-           console.log("none");
+           // console.log("none");
          }
       }
 
+      $("#check_out").click(function(event) {
+        event.preventDefault();
+        bootbox.confirm("Processed to check out", function(result){
+          if(result){
+            $.ajax({
+              url: 'one_click_buy_multiply.php',
+              type: 'GET',
+              dataType: 'json',
+              data: {param1: 'value1'},
+            })
+            .done(function() {
+
+              location.reload();
+            })
+            .fail(function() {
+              console.log("error");
+            })
+            .always(function() {
+              console.log("complete");
+            });
+          }       
+       })
+      });
       
       $(".up_quan_button").click(function(event) {
         event.preventDefault();

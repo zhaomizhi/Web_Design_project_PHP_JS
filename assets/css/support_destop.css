@@ -640,10 +640,14 @@ header
 		color: white;
 	}
 
-.order_history_content li{
-	border-bottom: 1px solid #C0C0C0;
-	margin-top: 20px;
-}
+	.order_history_content ul{
+		margin-left: -30px;
+	}
+
+	.order_history_content li{
+		border-bottom: 1px solid #C0C0C0;
+		margin-top: 20px;
+	}
 
 
 
